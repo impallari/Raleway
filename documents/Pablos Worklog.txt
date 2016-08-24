@@ -1,25 +1,35 @@
 Pablo Impallari Log:
 
 ————————————————————————————
-
-Raleway ToDo:
-- Swap /q by /q.alt
-
-General ToDo:
-- Complete Raleway extension.
-- Migrate more project for Nhung (Libre Baskerville, Libre Caslon, Dosis, Cabin, Encode)
-- Review Nhung's latest Libre Bodoni pull request.
-- Review Nhung's latest Libre Franklin pull request.
-- Review Mark’s Dancing Script glyphs migration.
+ToDo:
+- Add Locale tests to the testingpage and test Raleway’s locales
+- Upload Dosis Sources for Mark
+- Migrate more project for Nhung (Libre Baskerville, Libre Caslon, Encode)
+- This to Review:
+  - Nhung's latest Libre Bodoni pull request.
+  - Nhung's latest Libre Franklin pull request.
+  - Mark’s Dancing Script glyphs migration.
+  - Mark’s Cabin glyphs migration.
 
 ————————————————————————————
 
-Lun 22 August Worklog:
+Lun 23/24 August Worklog:
+- Completed LatinPro expansion
 - Finished updating all diacritics to use *comb components
 - Finished fixing migration stuff
-- New /cedilla design
+- Fixed quotes-related kernign issues
 - Manually add lnum OT features, since Glyphs fails to do it automatically since it can not recognize the default figure style.
-- Completed LatinPro expansion
+- New /cedilla design
+- /caroncomb.alt detached from _top anchor, now attached to _topright anchor
+- Small tweaks /oslash
+- Small tweaks to /copyright /registered
+- Small tweaks to /J /K /M /N /V /X /a /d /k /l /s /u /v /w /x /y /two /dollar in the Medium master
+- Small tweaks to /A /R /V /X /Y /Z /W /s /v /w /x /y /two in the Heavy master
+- Swapped /q by /q.alt
+
+- Updated Diacritics tab in the TestingPage to the 2016 glyphset
+
+————————————————————————————
 
 Encoding Questions:
 - Superiors and Numerators: 
