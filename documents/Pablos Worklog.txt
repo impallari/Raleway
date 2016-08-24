@@ -26,6 +26,7 @@ Lun 23/24 August Worklog:
 - Small tweaks to /J /K /M /N /V /X /a /d /k /l /s /u /v /w /x /y /two /dollar in the Medium master
 - Small tweaks to /A /R /V /X /Y /Z /W /s /v /w /x /y /two in the Heavy master
 - Swapped /q by /q.alt
+- Improved instances metadata, this fix naming metadata on the generated font files
 
 - Updated Diacritics tab in the TestingPage to the 2016 glyphset
 
