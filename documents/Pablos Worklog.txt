@@ -2,14 +2,18 @@ Pablo Impallari Log:
 
 ————————————————————————————
 ToDo:
-- Add Locale tests to the testingpage and test Raleway’s locales
-- Upload Dosis Sources for Mark
-- Migrate more project for Nhung (Libre Baskerville, Libre Caslon, Encode)
-- This to Review:
-  - Nhung's latest Libre Bodoni pull request.
-  - Nhung's latest Libre Franklin pull request.
-  - Mark’s Dancing Script glyphs migration.
-  - Mark’s Cabin glyphs migration.
+
+1) Upload Dosis Sources for Mark.
+2) Review Mark’s Cabin glyphs migration for Nhung.
+— Sleep - 
+3) Review Mark’s Dancing Script glyphs migration.
+4) Add Locale tests to the TestingPage, and test Raleway’s locales.
+5) Migrate more project for Nhung (Libre Baskerville, Libre Caslon, Encode).
+6) Review Nhung's latest Libre Bodoni pull request.
+7) Review Nhung's latest Libre Franklin pull request.
+
+————————————————————————————
+Latest Worklog
 
 ————————————————————————————
 
