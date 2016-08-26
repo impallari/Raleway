@@ -2,18 +2,23 @@ Pablo Impallari Log:
 
 ————————————————————————————
 ToDo:
-
-1) Upload Dosis Sources for Mark.
-2) Review Mark’s Cabin glyphs migration for Nhung.
-— Sleep - 
-3) Review Mark’s Dancing Script glyphs migration.
-4) Add Locale tests to the TestingPage, and test Raleway’s locales.
-5) Migrate more project for Nhung (Libre Baskerville, Libre Caslon, Encode).
-6) Review Nhung's latest Libre Bodoni pull request.
-7) Review Nhung's latest Libre Franklin pull request.
+- Review Nhung's latest Libre Franklin pull request.
+- Review Nhung's latest Libre Bodoni pull request.
+- Migrate more project for Nhung (Libre Baskerville, Libre Caslon, Encode).
+- Double check *comb classes and kerning
 
 ————————————————————————————
-Latest Worklog
+Latest Worklog:
+- Uploaded Dosis Sources to a new Repo for Mark and Nhung.
+- Reviewed Mark’s Cabin glyphs migration for Nhung.
+  Spoted some metrics problems and had a chat with Mark to identify and resolve the issues.
+  It turns out we needed to migrate the individual FL sources and not the MM file.
+- Reviewed Kalapi/Mark Dancing Script glyphs migration.
+  Glyphs wont export OTF files from the glyph source, since there was crazy stuff in the instances metadata. Reported the bug to Kalapi. Reported bug to Kalapi.
+  Fixed that metadata in my local copy, generated files, and they seem to match the original ones. Everything is Ok.
+  Later I learned that Kalapi was using branches and that stuff was already fixed.. silly me :)
+- Add Locale tests to the TestingPage
+- Tested and updated Raleway’s /periodcentered.loclCAT
 
 ————————————————————————————
 
